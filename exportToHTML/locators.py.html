@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>locators.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+locators.py</font>
+</center></td></tr></table>
+<pre><span class="s0">from </span><span class="s1">selenium.webdriver.common.by </span><span class="s0">import </span><span class="s1">By</span>
+<span class="s0">from </span><span class="s1">selenium </span><span class="s0">import </span><span class="s1">webdriver</span>
+<span class="s0">import </span><span class="s1">pytest</span>
+
+<span class="s0">class </span><span class="s1">AuthLocators:</span>
+    <span class="s1">LOCATOR_AUTH_PHONE_TAB = (By.ID</span><span class="s0">, </span><span class="s2">&quot;t-btn-tab-phone&quot;</span><span class="s1">)</span>
+    <span class="s1">LOCATOR_AUTH_EMAIL_TAB = (By.ID</span><span class="s0">, </span><span class="s2">&quot;t-btn-tab-mail&quot;</span><span class="s1">)</span>
+    <span class="s1">LOCATOR_AUTH_LOGIN_TAB = (By.ID</span><span class="s0">, </span><span class="s2">&quot;t-btn-tab-login&quot;</span><span class="s1">)</span>
+    <span class="s1">LOCATOR_AUTH_LS_TAB = (By.ID</span><span class="s0">, </span><span class="s2">&quot;t-btn-tab-ls&quot;</span><span class="s1">)</span>
+    <span class="s1">LOCATOR_AUTH_PASS_BTN = (By.ID</span><span class="s0">, </span><span class="s2">&quot;password&quot;</span><span class="s1">)</span>
+    <span class="s1">AUTH_PHONE = (By.ID</span><span class="s0">, </span><span class="s2">&quot;username&quot;</span><span class="s1">)</span>
+    <span class="s1">AUTH_EMAIL = (By.ID</span><span class="s0">, </span><span class="s2">&quot;username&quot;</span><span class="s1">)</span>
+    <span class="s1">AUTH_PASS = (By.ID</span><span class="s0">, </span><span class="s2">&quot;password&quot;</span><span class="s1">)</span>
+    <span class="s1">AUTH_BTN = (By.ID</span><span class="s0">, </span><span class="s2">&quot;kc-login&quot;</span><span class="s1">)</span>
+    <span class="s1">AUTH_USERNAME = (By.id</span><span class="s0">, </span><span class="s2">&quot;username&quot;</span><span class="s1">)</span>
+    <span class="s1">AUTH_CAPTCHA = (By.ID</span><span class="s0">, </span><span class="s2">&quot;captcha&quot;</span><span class="s1">)</span></pre>
+</body>
+</html>
